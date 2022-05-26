@@ -122,3 +122,6 @@ then
     bind '"\e[A": history-search-backward'
     bind '"\e[B": history-search-forward'
 fi
+
+export VISUAL=vim
+export EDITOR="$VISUAL"
